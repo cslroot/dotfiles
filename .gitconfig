@@ -1,0 +1,11 @@
+[user]
+	name = TAMURA Takashi
+	email = cslroot@gmail.com
+[core]
+	pager = lv -c
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+	branch = auto
+	status = auto
+

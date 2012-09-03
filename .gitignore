@@ -1,0 +1,35 @@
+#----- general -----
+.DS_Store
+Thumbs.db
+.svn
+*.swp
+*.lock
+profile
+
+# backup
+*~
+*.bak
+
+# c/c++/objc
+a.out
+*.o
+*.a
+
+#----- xcode -----
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*~.nib
+
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+build/
+
+#--    NB: also, whitelist the default ones, some projects need to use these
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
