@@ -4,6 +4,7 @@
 [core]
 	pager = lv -c
 	excludesfile = ~/.gitignore
+	autoctlf = input
 [color]
 	ui = auto
 	branch = auto
