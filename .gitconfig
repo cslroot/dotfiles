@@ -4,9 +4,10 @@
 [core]
 	pager = lv -c
 	excludesfile = ~/.gitignore
-	autoctlf = input
+	autocrlf = input
 [color]
 	ui = auto
 	branch = auto
 	status = auto
+	diff = auto
 
