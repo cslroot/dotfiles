@@ -17,7 +17,7 @@ test -x /usr/local/bin/lv && alias less=/usr/local/bin/lv
 # ls のカラー表示とdirectoryにスラッシュ
 test -x /usr/local/bin/gls && alias ls='gls  -F --color=auto'
 alias la='ls -alg'
-alias ll='ll -l'
+alias ll='lv -l'
 alias rm='rm -i'
 
 
