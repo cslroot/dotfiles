@@ -17,8 +17,18 @@ test -x /usr/local/bin/lv && alias less=/usr/local/bin/lv
 # ls のカラー表示とdirectoryにスラッシュ
 test -x /usr/local/bin/gls && alias ls='gls  -F --color=auto'
 alias la='ls -alg'
+alias ll='ll -l'
+alias rm='rm -i'
+
 
 # Finderで開く
 alias here='open .'
 # 画面クリア
 alias cls=clear
+
+
+export PATH=$PATH:~/NVPACK/android-sdk-macosx/platform-tools
+export PATH=$PATH:~/NVPACK/android-sdk-macosx/tools
+export NDKROOT="~/NVPACK/android-ndk-r8"
+export ANT_HOME="~NVPACK/apache-ant-1.8.2"
+export PATH=$PATH:~/NVPACK/apache-ant-1.8.2/bin

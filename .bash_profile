@@ -32,3 +32,9 @@ alias fcd='source /usr/local/bin/fcd.sh'
 # include .bashrc
 test -f ~/.bashrc && . ~/.bashrc
 
+
+export PATH=$PATH:~/NVPACK/android-sdk-macosx/platform-tools
+export PATH=$PATH:~/NVPACK/android-sdk-macosx/tools
+export NDKROOT="~/NVPACK/android-ndk-r8"
+export ANT_HOME="~/NVPACK/apache-ant-1.8.2"
+export PATH=$PATH:~/NVPACK/apache-ant-1.8.2/bin
