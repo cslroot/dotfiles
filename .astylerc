@@ -1,0 +1,29 @@
+# astyle settings
+
+# indents 4spaces
+--indent=spaces=4
+# 複数行になった条件文の継続行をインデントする最小の値
+--min-conditional-indent=0
+# タブは空白に
+--convert-tabs
+
+
+#----- 整形オプション -----
+# ブラケット対象：クラスや関数．ブロックは同一行
+--style=linux
+# 閉じブラケットを独立
+--break-closing-brackets
+
+# ブラケットつける
+--add-brackets
+
+# if, forなどの直後に空白入れる
+--pad-header
+# 演算子だけの場合は前後空白
+--pad-oper
+# 余分な空白は削除
+--unpad-paren
+
+# 最大列数
+--max-code-length=120
+
