@@ -18,6 +18,8 @@ test -d /opt/local && PATH=/opt/local/bin:/opt/local/sbin:$PATH &&
                       MANPATH=/opt/local/share/man:$MANPATH
 export PATH MANPATH
 
+export NODE_PATH=/usr/local/lib/node_modules
+
 #===== BASH COMPLETION (from homebrew) =====
 if [ -f `brew --prefix`/etc/bash_completion ]; then
    . `brew --prefix`/etc/bash_completion
